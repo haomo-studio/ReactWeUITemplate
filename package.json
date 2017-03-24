@@ -3,12 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "lodash": "^4.17.4",
     "moment": "^2.18.1",
     "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.3",
+    "react-weui": "^1.0.3",
+    "redux": "^3.6.0",
+    "weui": "^1.1.1"
   },
   "devDependencies": {
-    "react-scripts": "0.9.5"
+    "react-scripts": "0.9.5",
+    "redux-devtools": "^3.3.2"
   },
   "scripts": {
     "start": "react-scripts start",

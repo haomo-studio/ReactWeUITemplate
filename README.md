@@ -10,7 +10,7 @@
 * [React](http://reactjs.cn/react/docs/getting-started-zh-CN.html)
 * [WeUI](https://github.com/weui/weui)
 * [React-WeUI](https://github.com/weui/react-weui/)
-* []
+* [Redux](https://github.com/camsong/redux-in-chinese)
 
 ### 安装部署
 
