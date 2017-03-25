@@ -1,10 +1,25 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import {render} from 'react-dom';
+import {Router} from 'react-router';
 import 'weui';
-import App from './App';
+import getRoutes from './routes';
 import './index.css';
 
-ReactDOM.render(
-  <App />,
-  document.getElementById('root')
+import createBrowserHistory from 'history/createBrowserHistory'
+const history = createBrowserHistory();
+
+var destination = document.getElementById('root');
+
+// 不采用React Router时的写法
+// render(
+//   <App />,
+//   document.getElementById('root')
+// );
+
+// 采用React Router时的写法
+render(
+	<Router history={history}>
+		{getRoutes()}
+	</Router>,
+	destination
 );

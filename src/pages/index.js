@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 
-export default class Apps extends Component {
+export default class Pages extends Component {
 	render() {
 		return (
 			<div>
-				<h1>Apps页面</h1>
+				<h1>Pages页面</h1>
 				{this.props.children}
 			</div>
 		)

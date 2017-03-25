@@ -11,10 +11,12 @@
     "react-router": "^4.0.0",
     "react-weui": "^1.0.3",
     "redux": "^3.6.0",
+    "scroll-behavior": "^0.9.3",
     "weui": "^1.1.1"
   },
   "devDependencies": {
     "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
     "react-scripts": "0.9.5",
     "redux-devtools": "^3.3.2"
   },
