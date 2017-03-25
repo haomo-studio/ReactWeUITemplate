@@ -24,4 +24,5 @@
 
 ## 参考
 
+* [React基础](https://hxgqh.gitbooks.io/haomofrontendtutorial/content/%E6%A1%86%E6%9E%B6%E5%9F%B9%E8%AE%AD/react/%E5%9F%BA%E7%A1%80.html)
 * [awesome-react](https://github.com/enaqx/awesome-react)
