@@ -6,7 +6,7 @@ import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 export default class App extends Component {
   render() {
     return (
-      <TabBar/>
+      <TabBar />
     );
   }
 };
