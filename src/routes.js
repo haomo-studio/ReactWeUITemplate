@@ -36,39 +36,39 @@ export default (store) => {
       { /* Home (main) route */ }
       {/*<IndexRoute component={UI}/>*/}
 
-      <IndexRoute component={Home}/>
-      <Route path="button" component={Button}/>
-      <Route path="list" component={List}/>
-      <Route path="input" component={Input}/>
-      <Route path="toast" component={Toast}/>
-      <Route path="dialog" component={Dialog}/>
-      <Route path="progress" component={Progress}/>
-      <Route path="msg" component={Msg} />
-      <Route path="msg/success" component={MsgSuccess}/>
-      <Route path="msg/fail" component={MsgFail}/>
-      <Route path="article" component={Article}/>
-      <Route path="actionsheet" component={ActionSheet}/>
-      <Route path="icons" component={Icons}/>
-      <Route path="panel" component={Panel}/>
-      <Route path="navbar" component={NavBar}/>
-      <Route path="navbar2" component={NavBar2}/>
-      <Route path="tabbar" component={TabBar}/>
-      <Route path="tabbar2" component={TabBar2}/>
-      <Route path="searchbar" component={SearchBar}/>
-      <Route path="gallery" component={Gallery}/>
-      <Route path="uploader" component={Uploader}/>
-      <Route path="flex" component={Flex}/>
-      <Route path="footer" component={Footer}/>
-      <Route path="grid" component={Grid}/>
-      <Route path="loadmore" component={LoadMore}/>
-      <Route path="preview" component={Preview}/>
-      <Route path="toptips" component={TopTips}/>
-      <Route path="popup" component={Popup}/>
-      <Route path="picker" component={Picker}/>
-      <Route path="slider" component={Slider}/>
-      <Route path="badge" component={Badge}/>
-      <Route path="ptr" component={PTR}/>
-      <Route path="infinite" component={Infinite}/>
+      {/*<IndexRoute component={Home}/>*/}
+      {/*<Route path="button" component={Button}/>*/}
+      {/*<Route path="list" component={List}/>*/}
+      {/*<Route path="input" component={Input}/>*/}
+      {/*<Route path="toast" component={Toast}/>*/}
+      {/*<Route path="dialog" component={Dialog}/>*/}
+      {/*<Route path="progress" component={Progress}/>*/}
+      {/*<Route path="msg" component={Msg} />*/}
+      {/*<Route path="msg/success" component={MsgSuccess}/>*/}
+      {/*<Route path="msg/fail" component={MsgFail}/>*/}
+      {/*<Route path="article" component={Article}/>*/}
+      {/*<Route path="actionsheet" component={ActionSheet}/>*/}
+      {/*<Route path="icons" component={Icons}/>*/}
+      {/*<Route path="panel" component={Panel}/>*/}
+      {/*<Route path="navbar" component={NavBar}/>*/}
+      {/*<Route path="navbar2" component={NavBar2}/>*/}
+      {/*<Route path="tabbar" component={TabBar}/>*/}
+      {/*<Route path="tabbar2" component={TabBar2}/>*/}
+      {/*<Route path="searchbar" component={SearchBar}/>*/}
+      {/*<Route path="gallery" component={Gallery}/>*/}
+      {/*<Route path="uploader" component={Uploader}/>*/}
+      {/*<Route path="flex" component={Flex}/>*/}
+      {/*<Route path="footer" component={Footer}/>*/}
+      {/*<Route path="grid" component={Grid}/>*/}
+      {/*<Route path="loadmore" component={LoadMore}/>*/}
+      {/*<Route path="preview" component={Preview}/>*/}
+      {/*<Route path="toptips" component={TopTips}/>*/}
+      {/*<Route path="popup" component={Popup}/>*/}
+      {/*<Route path="picker" component={Picker}/>*/}
+      {/*<Route path="slider" component={Slider}/>*/}
+      {/*<Route path="badge" component={Badge}/>*/}
+      {/*<Route path="ptr" component={PTR}/>*/}
+      {/*<Route path="infinite" component={Infinite}/>*/}
 
       { /* Routes requiring login */ }
       {/*<Route onEnter={requireLogin}>*/}

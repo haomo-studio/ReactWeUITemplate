@@ -2,6 +2,7 @@ import React from 'react';
 import {render} from 'react-dom';
 import {Router} from 'react-router';
 import 'weui';
+import FastClick from 'fastclick';
 import getRoutes from './routes';
 // import { createStore } from 'redux';
 
@@ -23,6 +24,10 @@ var destination = document.getElementById('root');
 //   <App />,
 //   document.getElementById('root')
 // );
+
+window.addEventListener('load', () => {
+	FastClick.attach(document.body);
+});
 
 // 采用React Router时的写法
 render(
