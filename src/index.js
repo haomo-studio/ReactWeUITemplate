@@ -3,10 +3,18 @@ import {render} from 'react-dom';
 import {Router} from 'react-router';
 import 'weui';
 import getRoutes from './routes';
-import './index.css';
+// import { createStore } from 'redux';
 
 import createBrowserHistory from 'history/createBrowserHistory'
+
+import 'weui/dist/style/weui.min.css';
+import './index.css';
+
 const history = createBrowserHistory();
+// const store = createStore(
+// 	reducer, /* preloadedState, */
+// 	window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+// );
 
 var destination = document.getElementById('root');
 
