@@ -4,6 +4,7 @@ import TabBar from './layouts/TabBar';
 
 export default class App extends Component {
   render() {
+
     return (
       <div className="App">
         <TabBar/>
